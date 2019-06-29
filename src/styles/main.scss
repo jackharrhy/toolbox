@@ -17,11 +17,30 @@ body {
 		margin: 0;
 	}
 
-	padding: 1em;
+	padding: 1vw;
 	background-color: rgba(255,255,255,0.1);
 
 	h2 {
 		margin: 0 0 0.5em 0;
+	}
+
+	.playground {
+		margin: 1.25em 0 0 0;
+
+		textarea {
+			resize: none;
+			border: none;
+			width: 38.5vw;
+			height: 30em;
+			padding: 0;
+
+			float: right;
+			&:first-child {
+				float: none;
+			}
+
+			background-color: rgba(255,255,255,0.75);
+		}
 	}
 }
 
